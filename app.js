@@ -1,7 +1,10 @@
-console.log("working!");
+const lib = require('./lib');
+lib("cool string");
 
-let sunday = "tea";
+//console.log("working!");
 
-let monday = "no work for me";
+//let sunday = "tea";
 
-console.log("Today is a good day for " + sunday + "But tomorrow " + monday);
+//let monday = "no work for me";
+
+//console.log("Today is a good day for " + sunday + "But tomorrow " + monday);
